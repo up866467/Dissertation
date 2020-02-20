@@ -15,12 +15,12 @@ body {
     top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    perspective: 1000px;
+    perspective: 100%;
 }
 
 .memory-card {
