@@ -107,11 +107,11 @@
   const submitButton = document.getElementById('submit');
   const myQuestions = [
     {
-      question: "Who invented JavaScript?",
-      answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich"
+      question: "Is this an example of a question",
+      answers: 
+        a: "No",
+        b: "Maybe",
+        c: "Yes"
       },
       correctAnswer: "c"
     },

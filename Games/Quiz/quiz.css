@@ -7,14 +7,9 @@ body{
     text-align: center;
     background-color: #f8f6f0;
 }
-h1{
-    font-weight: 300;
-    margin: 0px;
-    padding: 10px;
-    font-size: 20px;
-    background-color: #444;
-    color: #fff;
-}
+
+/*--------------------quiz-----------------------*/
+
 .question{
     font-size: 30px;
     margin-bottom: 10px;
@@ -31,8 +26,8 @@ h1{
 button{
     font-family: sans-serif;
 	font-size: 22px;
-	background-color: #279;
-	color: #fff;
+	background-color: darkslategray;
+	color: white;
 	border: 0px;
 	border-radius: 3px;
 	padding: 20px;
@@ -40,7 +35,7 @@ button{
 	margin-bottom: 20px;
 }
 button:hover{
-	background-color: #38a;
+	background-color: lightblue;
 }
 .slide{
     position: absolute;
