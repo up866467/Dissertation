@@ -1,0 +1,28 @@
+.create{
+    width: 29%;
+    height: 30%;
+    background-color: dimgray;
+    position: fixed;
+    top: 20%;
+    right: 20%;
+}
+.create h1{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.play{
+    width: 29%;
+    height: 30%;
+    background-color: dimgray;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+}
+.play h1{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
