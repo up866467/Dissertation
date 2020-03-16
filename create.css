@@ -1,3 +1,14 @@
+.Guide{
+    font-family: sans-serif;
+    width: 75%;
+    height: 10%;
+    background-color: lightslategray;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 17%;
+    left: 50%;
+}
+
 form{
     width: 70%;
     height: 50%;
