@@ -1,19 +1,38 @@
-.login{
+#student{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+#teacher{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.student-signup, .teacher-signup{
     background-color: lightslategrey;
     position: absolute;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
-    height: 35%;
+    width: 400px;
+    height: 400px;
 }
+.student-signup{
+    top: 50%;
+    left: 30%;
+}
+.teacher-signup{
+    top: 50%;
+    left: 70%;
+}
+
 .inputBox{
     width: 75%;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
 label{
     color: white;
@@ -24,7 +43,6 @@ input{
     width: 100%;
     height: 40px;
 }
-
 .submit{
     width: 30%;
     height: 15%;
