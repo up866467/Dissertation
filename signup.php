@@ -4,20 +4,20 @@ $UserName = filter_input(INPUT_POST, 'UserName');
 $Email = filter_input(INPUT_POST, 'Email');
 $Password = filter_input(INPUT_POST, 'Password');
 
-if (!empty($username)){
-    if (!empty($password)){
-        $host = "localhost";
+if (!empty($UserName)){
+    if (!empty($Password)){
+        $host = "127.0.0.1";
         $dbusername = "root";
-        $dbpassword = "";
+        $dbpassword = "your_password";
         $dbname = "dissertation";
         // Create connection
         $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
         
         if (mysqli_connect_error()){
-            die('Connect Error ('. mysqli_connect_errno() .') '. mysqli_connect_error());
+            die('Connection Error ('. mysqli_connect_errno() .') '. mysqli_connect_error());
         }
         else{
-            $sql = "INSERT INTO teachers (UserName, Email, Password) values ('$username','$Email','$password')";
+            $sql = "INSERT INTO teachers (UserName, Email, Password) values ('$UserName','$Email','$Password')";
             if ($conn->query($sql)){
                 echo "New record is inserted sucessfully";
             }

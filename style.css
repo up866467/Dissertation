@@ -3,6 +3,7 @@
     padding:0;
     list-style: none;
     text-decoration: none;
+    font-family: sans-serif;
 }
 /*--------------------------------------------------------*/
 .header{
@@ -27,7 +28,7 @@
     height: 100%;
     display: table-cell;
     vertical-align: middle;
-    font-family: sans-serif;
+    
     font-size: 32px;
     font-weight: 200;
 }
@@ -134,6 +135,22 @@
 
 .page{
     width: 100%;
-    height: auto;
-    position: absolute;
+    height: 200px;
 }
+#info, #image{
+    height: 90%;
+    margin-top: 40px;
+    background-color: greenyellow;
+}
+#info{
+    width: 50%;
+    float: left;
+    margin-left: 40px;
+}
+#image{
+    width: 30%;
+    float: right;
+    margin-right: 40px;
+}
+
+
