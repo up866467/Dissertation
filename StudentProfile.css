@@ -1,26 +1,41 @@
-.create{
-    width: 29%;
-    height: 30%;
+.classes{
+    width: 25%;
+    height: 35%;
     background-color: dimgray;
     position: fixed;
     top: 20%;
     right: 20%;
 }
-.create h1{
+.classes h1{
     font-family: sans-serif;
     color: white;
     text-align: center;
     font-size: 60px;
 }
 .play{
-    width: 29%;
-    height: 30%;
+    width: 25%;
+    height: 35%;
     background-color: dimgray;
     position: fixed;
     top: 20%;
     left: 20%;
 }
 .play h1{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;    font-size: 60px;
+
+}
+.score{
+    width: 60%;
+    height: 30%;
+    background-color: dimgray;
+    position: fixed;
+    top: 60%;
+    left: 20%;
+}
+.score h1{
     font-family: sans-serif;
     color: white;
     text-align: center;

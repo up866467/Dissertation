@@ -1,0 +1,59 @@
+.create{
+    width: 25%;
+    height: 35%;
+    background-color: dimgray;
+    position: fixed;
+    top: 20%;
+    right: 20%;
+}
+.create h1{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.class{
+    width: 25%;
+    height: 15%;
+    background-color: dimgray;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+}
+.class h1{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;    font-size: 60px;
+}
+
+.play{
+    width: 25%;
+    height: 15%;
+    background-color: dimgray;
+    position: fixed;
+    top: 40%;
+    left: 20%;
+}
+.play h1{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;    font-size: 60px;
+}
+
+.score{
+    width: 60%;
+    height: 30%;
+    background-color: dimgray;
+    position: fixed;
+    top: 60%;
+    left: 20%;
+}
+.score h1{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
