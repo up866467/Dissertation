@@ -15,8 +15,8 @@
     background-color: lightslategrey;
     position: absolute;
     transform: translate(-50%, -50%);
-    width: 400px;
-    height: 400px;
+    width: 30%;
+    height: 40%;
 }
 .student-signup{
     top: 50%;
@@ -43,7 +43,7 @@ input{
     width: 100%;
     height: 40px;
 }
-.submit{
+.Ssubmit, .Tsubmit{
     width: 30%;
     height: 15%;
     font-size: 20px;
