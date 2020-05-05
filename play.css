@@ -1,63 +1,38 @@
 .game1{
     width: 50%;
     height: 15%;
-    background-color: dimgray;
+    background-color: darkslategray;
     position: fixed;
     top: 15%;
     right: 25%;
 }
-.game1 h1{
-    font-family: sans-serif;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-}
+
 .game2{
     width: 50%;
     height: 15%;
-    background-color: lightblue;
+    background-color: darkslategray;
     position: fixed;
     top: 35%;
     right: 25%;
 }
-.game2 h1{
-    font-family: sans-serif;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-}
+
 .game3{
     width: 50%;
     height: 15%;
-    background-color: dimgray;
+    background-color: lightgray;
     position: fixed;
     top: 55%;
     right: 25%;
 }
-.game3 h1{
-    font-family: sans-serif;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-}
 .game4{
     width: 50%;
     height: 15%;
-    background-color: lightblue;
+    background-color: lightgrey;
     position: fixed;
     top: 75%;
     right: 25%;
 }
-.game4 h1{
+.choices h1{
     font-family: sans-serif;
     color: white;
     position: absolute;
@@ -66,3 +41,13 @@
     transform: translate(-50%, -50%);
     font-size: 60px;
 }
+.choices p{
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
