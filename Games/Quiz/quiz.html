@@ -1,32 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>up866467</title>
-        <link rel="stylesheet" type="text/css" href="quiz.css">
         <link rel="stylesheet" type="text/css" href="../../style.css">
-        <script type="text/javascript" src="quiz.js"></script>
+        <link rel="stylesheet" type="text/css" href="quiz.css">
+        <script src = "quiz.js"></script>
+        <title>up866467</title>
     </head>
     <body>
-         <div class="header">
+        <div class="header">
             <div class="inner_header">
                 <div class="logo_container">
-                    <h1>Quiz Game Example</h1>
+                    <h1>My <span>Dissertation</span></h1>
                 </div>
                 <ul class="navigation">
                     <a href="../../index.html"><li id="home">Home</li></a>
-                    <a href="../../login.html"><li id="login">Log in</li></a>
+                    <a href="../../login.html"><li id="login">Sign Up</li></a>
                     <a href="../../profile.html"><li id="profile">Profile</li></a>
-                    <a><li id="contact">Contact</li></a>
+                    <a><li id="../../contact">Contact</li></a>
                 </ul>
             </div>
         </div>
-        
-        <div class="quiz-container">
-          <div id="quiz"></div>
+        <div class="page">
+            <div class="info">
+                <div class="container">
+                <div class="title">
+                    <h1>Example</h1>
+                </div>
+                <ul class="nav">
+                    <a href="quiz.html"><li>Example</li></a>
+                    <a href="../Memory/memorygame1.html"><li>Quiz 1</li></a>
+                    <a><li>Quiz 2</li></a>
+                    <a><li>Quiz 3</li></a>
+                </ul>
+            </div>
+            
+            <div class="text">
+                <h1>Example</h1>
+                <p>......</p>
+                <p>This is the quiz game, use the input boxes or correct buttons to select the appropriate answer.</p>
+                <p>......</p>
+                <p>Use the [Im Finished!] button to submit the ansers and see your score.</p>
+                <p>......</p>
+                <p>This game is an example quiz. Use the links at the top of this box to navigate to some other Quiz examples.</p>
+            </div>
+            </div>
+            <div class="game">
+                <form id = "quiz" name = "quiz">
+                    <p class = "questions">Is this a test to see if text input works?</p>
+                    <input id = "textbox" type = "text" name = "question1">
+                    <br>
+                    <p class = "questions">Is this a tests to see if buttons work?</p>
+                    <input type = "radio" id = "mc" name = "question2" value = "Yes">Yes<br>
+                    <input type = "radio" id = "mc" name = "question2" value = "No">No<br>
+                    <br>
+                    <p class = "questions">Do you always test code?</p>
+                    <input type = "radio" id = "mc" name = "question3" value = "Always">Always<br>
+                    <input type = "radio" id = "mc" name = "question3" value = "Never">Never<br>
+                    <br>
+                    <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+                </form>
+                <div id = "after_submit">
+                    <p id = "number_correct"></p>
+                    <p id = "message"></p>
+                </div>
+            </div>
         </div>
-        <button id="previous">Previous Question</button>
-        <button id="next">Next Question</button>
-        <button id="submit">Submit Quiz</button>
-        <div id="results"></div>
     </body>
 </html>
