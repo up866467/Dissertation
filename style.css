@@ -150,15 +150,15 @@
 #info{
     width: 40%;
     float: left;
-    margin-left: 12.5%;
+    margin-left: 12%;
     height: 100%;
     margin-top: 40px;
-    background-color: darkgray;
+    background-color: dimgray;
 }
 #info p{
     width: 90%;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     position: relative;
     transform: translate(-50%,-50%);
     left: 50%;
@@ -167,7 +167,7 @@
 #image{
     width: 30%;
     float: right;
-    margin-right: 12.5%;
+    margin-right: 12%;
     height: 100%;
     margin-top: 40px;
 }
