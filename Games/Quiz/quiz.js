@@ -8,10 +8,10 @@ function check(){
 
 	if (question1 == "Yes") {
 		correct++;
-}
+    }
 	if (question2 == "Yes") {
 		correct++;
-}	
+    }	
 	if (question3 == "Always") {
 		correct++;
 	}
